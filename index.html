@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" sizes="192x192" href="./assets/Imagens/icon.webp">
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <title>Portal</title>
+</head>
+
+<body>
+    <div class="topo">
+        <div class="topoint">
+            <div class="topoleft">
+                <ul>
+                    <li><a href="" class="ativo">Home</a></li>
+                    <li><a href="">Quem Somos</a></li>
+                    <li><a href="">Anuncie Aqui</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </div>
+            <div class="toporight">
+                <input class="image-lupa" type="image" src="assets/Imagens/search-icon.png" border="0" width="26"
+                    height="26" />
+                <input type="text" name="busca" class="topobusca" placeholder="Busca...">
+                <a href=""><img src="assets/Imagens/youtube.png" border="0" width="26" height="26" /></a>
+                <a href=""><img src="assets/Imagens/Twitter.png" border="0" width="26" height="26" /></a>
+                <a href=""><img src="assets/Imagens/facebook.png" border="0" width="26" height="26" /></a>
+                <a href=""><img src="assets/Imagens/google-mais.png" border="0" width="26" height="26" /></a>
+                <a href=""><img src="assets/Imagens/rss.png" border="0" width="26" height="26" /></a>
+            </div>
+        </div>
+    </div>
+    <div class="topo2">
+        <div class="topo2int">
+            <div class="logo">
+                <img src="./assets/Imagens/mega-portal.png" />
+            </div>
+            <div class="banner">
+                <img src="./midia/filhotes.jpg" />
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="menu-int">
+            <img src="./assets/Imagens/menu-burger.png" border="0" width="40" height="40" class="menumobile" onclick="toggleMenu ()"/>
+            <ul id="menu">
+                <li><a href="" class="ativo">Home</a></li>
+                <li><a href="">Economia</a></li>
+                <li>
+                    <a href="">Entretenimento</a>
+                    <img src="./assets/Imagens/caret-down.png" border="0" width="20" height="20" />
+                    <div class="submenu">
+                        <a href="">
+                            <div class="submenuitem">Sub Menu 1</div>
+                            <div class="submenuitem">Sub Menu 2</div>
+                            <div class="submenuitem">Sub Menu 3</div>
+                            <div class="submenuitem">Sub Menu 4</div>
+                            <div class="submenuitem">Sub Menu 5</div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="">Esportes</a>
+                    <img src="./assets/Imagens/caret-down.png" border="0" width="20" height="20" />
+                    <div class="submenu">
+                        <a href="">
+                            <div class="submenuitem">Sub Menu 1</div>
+                            <div class="submenuitem">Sub Menu 2</div>
+                            <div class="submenuitem">Sub Menu 3</div>
+                            <div class="submenuitem">Sub Menu 4</div>
+                            <div class="submenuitem">Sub Menu 5</div>
+                        </a>
+                    </div>
+                </li>
+                <li><a href="">Geral</a></li>
+                <li>
+                    <a href="">Notícias</a>
+                    <img src="./assets/Imagens/caret-down.png" border="0" width="20" height="20" />
+                    <div class="submenu">
+                        <a href="">
+                            <div class="submenuitem">Sub Menu 1</div>
+                            <div class="submenuitem">Sub Menu 2</div>
+                            <div class="submenuitem">Sub Menu 3</div>
+                            <div class="submenuitem">Sub Menu 4</div>
+                            <div class="submenuitem">Sub Menu 5</div>
+                        </a>
+                    </div>
+                </li>
+                <li><a href="">Policia</a></li>
+                <li><a href="">Vídeos</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="ultimas-noticias">
+        <div class="ultimas-noticias-int">
+            <div class="ultnoticiasarea">
+                <div class="ultnoticiastitulo">ÚLTIMAS NOTÍCIAS</div>
+                <div class="ultnoticiasnoticias"> Alguma notícia de algum texto que irá ficar pot aqui mesmo.</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="containerint">
+            <!--Area do lado esquerdo do site-->
+            <div class="leftside">
+                <div class="slideshow" id="slideshow">
+                    <div class="slidebolinhas">
+                        <div class="bolinha" data-bola="0" onclick="mudarSlide"(0)></div>
+                        <div class="bolinha" data-bola="1" onclick="mudarSlide"(1)></div>
+                        <div class="bolinha" data-bola="2" onclick="mudarSlide"(2)></div>
+                        <div class="bolinha" data-bola="3" onclick="mudarSlide"(3)></div>
+                    </div>
+                    <div class="slideshowarea">
+                        <div class="slide" style="background-image:url('./midia/slide-1.jpg')">
+                            <div class="slideinfo">
+                                <div class="slideinfo_titulo">TEXTO DE TESTE 1</div>
+                                <div class="slideinfo_subtitulo">TEXTO DE TESTE 1</div>
+                            </div>
+                        </div>
+                        <div class="slide" style="background-image:url('./midia/slide-2.jpg')">
+                            <div class="slideinfo">
+                                <div class="slideinfo_titulo">TEXTO DE TESTE 2</div>
+                                <div class="slideinfo_subtitulo">TEXTO DE TESTE 2</div>
+                            </div>
+                        </div>
+                        <div class="slide" style="background-image:url('./midia/slide-3.png')">
+                            <div class="slideinfo">
+                                <div class="slideinfo_titulo">TEXTO DE TESTE 3</div>
+                                <div class="slideinfo_subtitulo">TEXTO DE TESTE 3</div>
+                            </div>
+                        </div>
+                        <div class="slide" style="background-image:url('./midia/slide-4.png')">
+                            <div class="slideinfo">
+                                <div class="slideinfo_titulo">TEXTO DE TESTE 4</div>
+                                <div class="slideinfo_subtitulo">TEXTO DE TESTE 4</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget-titulo" style="font-size: 20px;">NOTÍCIAS</div>
+                    <div class="widget-conteudo">
+                        <div class="noticiaarea1">
+                            <div class="noticiaitem noticiabig">
+                                <div class="noticiaimg">
+                                    <img src="midia/presidente-russo-vladimir-putin.webp" border="0" width="80" height="80"/>
+                                </div>
+                                <div class="noticiatitulo">
+                                    <a href="https://noticias.uol.com.br/ultimas-noticias/reuters/2022/03/26/porta-voz-do-kremlin-rejeita-declaracao-de-biden-sobre-putin-nao-poder-continuar-no-poder.htm">
+                                        Porta-voz do Kremlin rejeita declaração de Biden sobre
+                                        Putin não poder continuar no poder... - Veja mais em 
+                                    </a>
+                                </div>
+                                <div class="noticiainfo">500 comentarios</div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="noticiaarea2">
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="" border="0" width="80" height="80"/>
+                                </div>
+                                <div class="noticiatitulo">Algum titulo qualquer</div>
+                                <div class="noticiainfo">500 comentarios</div>
+                            </div>
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="" border="0" width="80" height="80"/>
+                                </div>
+                                <div class="noticiatitulo">Algum titulo qualquer</div>
+                                <div class="noticiainfo">500 comentarios</div>
+                            </div>
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="" border="0" width="80" height="80"/>
+                                </div>
+                                <div class="noticiatitulo">Algum titulo qualquer</div>
+                                <div class="noticiainfo">500 comentarios</div>
+                            </div>
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="" border="0" width="80" height="80"/>
+                                </div>
+                                <div class="noticiatitulo">Algum titulo qualquer</div>
+                                <div class="noticiainfo">500 comentarios</div>
+                            </div>
+                        </div>
+                        <div style="clear:both"></div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget-titulo" style="font-size: 20px;">ESPORTES</div>
+                    <div class="widget-conteudo">
+                        <div class="noticiaarea1">
+                            <div class="noticiaitem noticiabig">
+                                <div class="noticiaimg">
+                                    <img src="" border="0" width="80" height="80"/>
+                                </div>
+                                <div class="noticiatitulo">
+                                    Algum titulo qualquer Algum titulo qualquer
+                                    Algum titulo qualquer Algum titulo qualquer
+                                </div>
+                                <div class="noticiainfo">500 comentarios</div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="noticiaarea2">
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="" border="0" width="80" height="80"/>
+                                </div>
+                                <div class="noticiatitulo">Algum titulo qualquer</div>
+                                <div class="noticiainfo">500 comentarios</div>
+                            </div>
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="" border="0" width="80" height="80"/>
+                                </div>
+                                <div class="noticiatitulo">Algum titulo qualquer</div>
+                                <div class="noticiainfo">500 comentarios</div>
+                            </div>
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="" border="0" width="80" height="80"/>
+                                </div>
+                                <div class="noticiatitulo">Algum titulo qualquer</div>
+                                <div class="noticiainfo">500 comentarios</div>
+                            </div>
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="" border="0" width="80" height="80"/>
+                                </div>
+                                <div class="noticiatitulo">Algum titulo qualquer</div>
+                                <div class="noticiainfo">500 comentarios</div>
+                            </div>
+                        </div>
+                        <div style="clear:both"></div>
+                    </div>
+                </div>
+                
+            </div>
+            <!--Area do lado direito do site-->
+            <div class="rightside">
+                <div class="widget">
+                    <div class="widget-titulo">SOCIAL</div>
+                    <div class="widget-conteudo">
+                        <a href=""><img src="assets/Imagens/youtube.png" border="0" width="26" height="26" /></a>
+                        <a href=""><img src="assets/Imagens/Twitter.png" border="0" width="26" height="26" /></a>
+                        <a href=""><img src="assets/Imagens/facebook.png" border="0" width="26" height="26" /></a>
+                        <a href=""><img src="assets/Imagens/google-mais.png" border="0" width="26" height="26" /></a>
+                        <a href=""><img src="assets/Imagens/rss.png" border="0" width="26" height="26" /></a></div>
+                    </div>
+                <div class="widget">
+                    <div class="widget-titulo">ÚLTIMAS NOTÍCIAS</div>
+                    <div class="widget-conteudo">
+                        <div class="noticia-item">
+                            <a style="text-decoration: none; color: #000; " href="https://www.uol.com.br/esporte/ultimas-noticias/2022/03/17/ex-tenista-ucraniano-diz-que-esta-pronto-para-atirar-em-invasores-russos.htm" target="_blank">Ex-tenista ucraniano diz que está pronto para atirar em invasores russos.</a>
+                        </div>
+                        <div class="noticia-item">
+                            <a style="text-decoration: none; color: #000; " href="https://economia.uol.com.br/noticias/afp/2022/03/17/russia-paga-juros-da-divida-estrangeira-evitando-calote.htm" target="_blank">Rússia paga juros da dívida estrangeira, evitando calote.</a>
+                        </div>
+                        <div class="noticia-item">
+                            <a style="text-decoration: none; color: #000; " href="https://noticias.uol.com.br/ultimas-noticias/afp/2022/03/17/eua-doou-mais-de-500-milhoes-de-vacinas-anticovid-para-outros-paises.htm" target="_blank">EUA doaram mais de 500 milhões de vacinas anticovid para outros países</a>
+                        </div>
+                        <div class="noticia-item">
+                            <a style="text-decoration: none; color: #000; " href="https://noticias.uol.com.br/cotidiano/ultimas-noticias/2022/03/17/o-que-se-sabe-sobre-o-caso-do-morador-de-rua-espancado-por-personal-no-df.htm" target="_blank">O que se sabe sobre o caso do sem-teto agredido por personal trainer no DF</a>
+                        </div>
+                        <div class="noticia-item">
+                            <a style="text-decoration: none; color: #000; " href="https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2022/03/17/chuvas-provocam-alagamentos-enchentes-e-prejuizos-em-sp.htm" target="_blank">Chuvas provocam alagamentos, enchentes e prejuízos em SP.</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget-titulo">PUBLICIDADE</div>
+                    <div class="widget-conteudo">
+                        <a style="text-decoration: none; color: #000; height: 30px;" href="https://www.behance.net/gallery/17941827/Anuncios-Max-Titanium-Melhor-Marca-Nacional" target="_blank"><p>Max Titanium - Melhor Marca Nacional</p></a>
+                        <a href="https://www.behance.net/gallery/17941827/Anuncios-Max-Titanium-Melhor-Marca-Nacional" target="_blank"><img src="./midia/qual-e-sua-meta-max.jpg" border="0" width="275" height="275"/></a>
+                        
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget-titulo">ENCONTRE-NOS NO FACEBOOK</div>
+                    <div class="widget-conteudo"><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FTECHDELLINFORMATICA%2F&tabs&width=275&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="275" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
